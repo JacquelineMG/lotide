@@ -1,4 +1,10 @@
-const assertEqual = require("./assertEqual");
+// FUNCTION DESCRIPTION:
+// findKey function takes in an object and a callback, scan the object and return the first key for which the callback returns a truthy value 
+// If no key is found, then it returns undefined
+
+
+// Additional function for testing purposes:
+// const assertEqual = require("./assertEqual");
 
 
 const findKey = function(object, callback) {

@@ -1,5 +1,10 @@
-const eqArrays = require("./eqArrays");
-const assertArraysEqual = require("./assertArraysEqual");
+// FUNCTION DESCRIPTION:
+// flatten function flattens nested arrays into single arrays
+
+
+// Additional functions for testing purposes:
+// const eqArrays = require("./eqArrays");
+// const assertArraysEqual = require("./assertArraysEqual");
 
 
 const flatten = function(array) {

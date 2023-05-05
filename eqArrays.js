@@ -1,4 +1,9 @@
-const assertEqual = require("./assertEqual");
+// FUNCTION DESCRIPTION:
+// eqArrays function compares two arrays for a match and returns a true or false boolean
+
+
+// Additional function for testing purposes:
+// const assertEqual = require("./assertEqual");
 
 
 const eqArrays = function(arr1, arr2) {

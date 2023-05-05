@@ -1,3 +1,7 @@
+// FUNCTION DESCRIPTION:
+// assertEqual function helps test code by console logging a message confirming or denying that an actual and expected value are equal 
+
+
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`${String.fromCodePoint(0x00002705)} Assertion Passed: ${actual} === ${expected} ${String.fromCodePoint(0x00002705)}`);

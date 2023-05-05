@@ -1,4 +1,9 @@
-const assertEqual = require("./assertEqual");
+// FUNCTION DESCRIPTION:
+// head function retrieves the first element from the array
+
+
+// Additional function for testing purposes:
+// const assertEqual = require("./assertEqual");
 
 
 const head = function(array) {

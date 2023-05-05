@@ -1,5 +1,11 @@
+// FUNCTION DESCRIPTION:
+// eqObjects function takes in two objects and returns true or false, based on a perfect match
+
+
+// Additional function for testing purposes:
+// const assertEqual = require("./assertEqual");
+
 const eqArrays = require("./eqArrays");
-const assertEqual = require("./assertEqual");
 
 
 const eqObjects = function(object1, object2) {

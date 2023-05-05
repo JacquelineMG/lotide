@@ -1,5 +1,10 @@
-const eqArrays = require("./eqArrays");
-const assertArraysEqual = require("./assertArraysEqual");
+// FUNCTION DESCRIPTION:
+// letterPositions function returns all the indices in the string where each character is found
+
+
+// Additional functions for testing purposes:
+// const eqArrays = require("./eqArrays");
+// const assertArraysEqual = require("./assertArraysEqual");
 
 
 const letterPositions = function(sentence) {

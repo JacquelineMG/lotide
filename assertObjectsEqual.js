@@ -1,4 +1,10 @@
-const eqArrays = require("./eqArrays");
+// FUNCTION DESCRIPTION:
+// assertObjectEqual function helps test code by console logging a message confirming or denying that an actual and expected object are equal 
+
+
+// Additional function for testing purposes:
+// const eqArrays = require("./eqArrays");
+
 const eqObjects = require("./eqObjects");
 
 

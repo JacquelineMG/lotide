@@ -1,4 +1,9 @@
-const assertEqual = require("./assertEqual");
+// FUNCTION DESCRIPTION:
+// countLetters function takes in a string and then return a count of each of the letters in that string
+
+
+// Additional function for testing purposes:
+// const assertEqual = require("./assertEqual");
 
 
 const countLetters = function(string) {

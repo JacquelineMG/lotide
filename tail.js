@@ -1,4 +1,9 @@
-const assertEqual = require("./assertEqual");
+// FUNCTION DESCRIPTION:
+// tail function retrieves all but the first element from the array
+
+
+// Additional functions for testing purposes:
+//const assertEqual = require("./assertEqual");
 
 
 const tail = function(array) {

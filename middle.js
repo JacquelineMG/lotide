@@ -1,5 +1,10 @@
-const eqArrays = require("./eqArrays");
-const assertArraysEqual = require("./assertArraysEqual");
+// FUNCTION DESCRIPTION:
+// middle function returns an array with only the middle element(s) of the provided array
+
+
+// Additional functions for testing purposes:
+// const eqArrays = require("./eqArrays");
+// const assertArraysEqual = require("./assertArraysEqual");
 
 
 const middle = function(array) {

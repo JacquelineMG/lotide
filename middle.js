@@ -2,16 +2,10 @@
 // middle function returns an array with only the middle element(s) of the provided array
 
 
-// Additional functions for testing purposes:
-// const eqArrays = require("./eqArrays");
-// const assertArraysEqual = require("./assertArraysEqual");
-
-
 const middle = function(array) {
   const midNum = [];
   const evenMid = array.length / 2;
   const oddMid = Math.round(evenMid - 1);
-  
   if (array.length <= 2) {
     return midNum;
   } else if (array.length % 2 === 0) {

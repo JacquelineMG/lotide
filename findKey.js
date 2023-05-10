@@ -3,10 +3,6 @@
 // If no key is found, then it returns undefined
 
 
-// Additional function for testing purposes:
-// const assertEqual = require("./assertEqual");
-
-
 const findKey = function(object, callback) {
   for (const item in object) {
     if (callback((object)[item]) === true) {

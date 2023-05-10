@@ -1,9 +1,5 @@
 // FUNCTION DESCRIPTION:
-// count function takes in a collection of items and returns counts for a specific subset of those items
-
-
-// Additional function for testing purposes:
-// const assertEqual = require("./assertEqual");
+// countOnly function takes in a collection of items and returns counts for a specific subset of those items
 
  
 const countOnly = function(allItems, itemsToCount) {

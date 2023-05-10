@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@jacquelinemg/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "mini clone of the [Lodash](https://lodash.com) library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/JacquelineMG/lotide.git"
   },
-  "author": "",
+  "author": "Jacqueline Gilchrist",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JacquelineMG/lotide/issues"

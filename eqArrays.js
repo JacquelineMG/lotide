@@ -2,10 +2,6 @@
 // eqArrays function compares two arrays for a match and returns a true or false boolean
 
 
-// Additional function for testing purposes:
-// const assertEqual = require("./assertEqual");
-
-
 const eqArrays = function(arr1, arr2) {
   for (let i = 0; i < arr1.length; i++) {
     if (arr1.length !== arr2.length) {

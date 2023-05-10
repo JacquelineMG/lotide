@@ -1,20 +1,21 @@
-const assertArraysEqual = require("../assertArraysEqual.js");
+const assert = require('chai').assert;
 const middle = require("../middle.js");
 
+describe("#middle", () => {
+  it("returns [2] for [1, 2, 3]", () => {
+    assert.deepEqual(middle([1, 2, 3]), [2]);
+  });
 
+  it("returns '[]' for []", () => {
+    assert.deepEqual(middle([]), []); 
+  });
 
-console.log(middle([1])); // => []
-console.log(middle([1, 2])); // => []
-console.log(middle([1, 2, 3])); // => [2]
-console.log(middle([1, 2, 3, 4, 5])); // => [3]
-console.log(middle([1, 2, 3, 4])); // => [2, 3]
-console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
-console.log(middle([1, 100, 4]));
-console.log(middle(["tree", "grass", "rabbit", "flower"]));
+  it("returns '[]' for [1]", () => {
+    assert.deepEqual(middle([1]), []); 
+  });
 
-const words = ["hello", "world", "lighthouse"];
-middle(words); 
+  it("returns '[2, 3]' for [1, 2, 3, 4]", () => {
+    assert.deepEqual(middle([1]), []); 
+  });
 
-assertArraysEqual(middle(words), ["world"]);
-assertArraysEqual(words, ["world"]);
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+});

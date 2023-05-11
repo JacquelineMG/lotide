@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// assertObjectEqual function helps test code by console logging a message confirming or denying that an actual and expected object are equal 
+// assertObjectEqual helps test code by console logging a message confirming or denying whether given actual and expected objects are strictly equal 
+
+//INPUT: 2 objects
+//OUTPUT: console.log message
 
 
 const eqObjects = require("./eqObjects");

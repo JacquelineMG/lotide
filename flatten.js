@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// flatten function flattens nested arrays into single-level array
+// flatten flattens nested arrays into a single-level array
+
+//INPUT: a nested array
+//OUTPUT: returns a single-level array
 
 
 const flatten = function(array) {

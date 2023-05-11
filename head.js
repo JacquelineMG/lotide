@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// head function retrieves the first element from the given array
+// head returns the first item from the given array
+
+//INPUT: an array
+//OUTPUT: returns the first item from array
 
 
 const head = function(array) {

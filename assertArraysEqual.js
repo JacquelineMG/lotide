@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// assertArraysEqual function helps test code by console logging a message confirming or denying that an actual and expected array are equal 
+// assertArraysEqual helps test code by console logging a message confirming or denying whether two given array are strictly equal 
+
+//INPUT: 2 arrays
+//OUTPUT: console.log message 
 
 
 const eqArrays = require("./eqArrays");

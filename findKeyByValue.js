@@ -1,6 +1,9 @@
 // FUNCTION DESCRIPTION:
-// findKeyByValue function takes in an object and a value, scans the object and return the first key which contains the given value
-// If no key with that given value is found, then it returns undefined
+// findKeyByValue takes in an object and a value, and returns the first key which contains the given value
+// If no key with the given value is found, then it returns undefined
+
+//INPUT: an object and a value
+//OUTPUT: returns a key
 
 
 // Second Version

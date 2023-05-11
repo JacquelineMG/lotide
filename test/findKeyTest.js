@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the findKey function
+
+
 const assert = require('chai').assert;
 const findKey = require('../findKey');
 

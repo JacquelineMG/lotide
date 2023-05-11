@@ -1,6 +1,9 @@
 // FUNCTION DESCRIPTION:
-// takeUntil function keeps collecting items from a provided array until the callback provided returns a truthy value
-// it then returns the collected items as new array
+// takeUntil pushes items from a provided array into a new array until a provided callback returns a truthy value
+// it then returns the new collected items array
+
+//INPUT: an array and a callback function
+//OUTPUT: returns an array
  
 
 const takeUntil = function(array, callback) {

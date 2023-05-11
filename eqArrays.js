@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// eqArrays function compares two arrays for a match and returns a true or false boolean
+// eqArrays assesses whether two arrays are a strictly equal and returns a true or false boolean
+
+//INPUT: 2 arrays
+//OUTPUT: returns a boolean  
 
 
 const eqArrays = function(arr1, arr2) {

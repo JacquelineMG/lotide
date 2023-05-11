@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the findKeyByValue function
+
+
 const assert = require('chai').assert;
 const findKeyByValue = require('../findKeyByValue');
 

@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the head function
+
+
 const assert = require('chai').assert;
 const head   = require('../head');
 

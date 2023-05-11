@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// countLetters function takes in a string and then return a count of each of the letters in that string
+// countLetters takes in a string and then returns an object containing the string's letters as keys and the letter counts as values
+
+//INPUT: a string
+//OUTPUT: returns an object 
 
 
 const countLetters = function(string) {

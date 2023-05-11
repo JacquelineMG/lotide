@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the countOnly function
+
+
 const assert = require('chai').assert;
 const countOnly = require('../countOnly');
 

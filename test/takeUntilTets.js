@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the takeUntil function
+
+
 const assert = require('chai').assert;
 const takeUntil = require('../takeUntil');
 

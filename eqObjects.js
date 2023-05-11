@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// eqObjects function takes in two objects and returns true or false, based on a perfect match
+// eqObjects takes in two objects and returns true or false based whether they are a strict match
+
+//INPUT: 2 objects
+//OUTPUT: returns a boolean
 
 
 const eqArrays = require("./eqArrays");

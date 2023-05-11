@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the middle function
+
+
 const assert = require('chai').assert;
 const middle = require("../middle");
 

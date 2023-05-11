@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// tail function retrieves all but the first element from the array
+// tail pushes all but the first element from the array into a new array and returns the new array
+
+//INPUT: an array
+//OUTPUT: returns an array
 
 
 const tail = function(array) {

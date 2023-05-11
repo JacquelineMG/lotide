@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the eqObjects function
+
+
 const assert = require('chai').assert;
 const eqObjects = require('../eqObjects');
 

@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// middle function returns an array with only the middle element(s) of the provided array
+// middle returns an new array with only the middle element(s) of a given array
+
+//INPUT: an array
+//OUTPUT: returns an array
 
 
 const middle = function(array) {

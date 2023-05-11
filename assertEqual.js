@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// assertEqual function helps test code by console logging a message confirming or denying that an actual and expected value are equal 
+// assertEqual helps test code by console logging a message confirming or denying that actual and expected values are strictly equal 
+
+//INPUT: 2 values (eg: strings, numbers)
+//OUTPUT: console.log message
 
 
 const assertEqual = function(actual, expected) {

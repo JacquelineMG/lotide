@@ -1,3 +1,6 @@
+//Testing for the assertObjectsEqual function
+
+
 const assertObjectsEqual = require("../assertObjectsEqual");
 
 const cat1 = { color: ["white", "black"], size: "medium", hair: "long" };

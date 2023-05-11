@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the letterPositions function
+
+
 const assert = require('chai').assert;
 const letterPositions = require('../letterPositions');
 

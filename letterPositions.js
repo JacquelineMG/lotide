@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// letterPositions function returns all the indices in the given string where each character is found
+// letterPositions returns an object containing the characters of a given string as keys and the characters' indices as values
+
+//INPUT: a string
+//OUTPUT: returns an object
 
 
 const letterPositions = function(sentence) {

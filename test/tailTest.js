@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the tail function
+
+
 const assert = require('chai').assert;
 const tail = require("../tail");
 

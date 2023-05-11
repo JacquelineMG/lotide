@@ -1,3 +1,6 @@
+//Testing using chai and mocha for the countLetters function
+
+
 const assert = require('chai').assert;
 const countLetters = require('../countLetters');
 

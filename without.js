@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// without function returns a subset of a given array after removing unwanted elements
+// without takes in a source array and an itemsToRemove array and returns the subset of the source array after removing unwanted elements 
+
+//INPUT: 2 arrays
+//OUTPUT: returns an array
 
 
 const without = function(source, itemsToRemove) {

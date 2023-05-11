@@ -1,5 +1,8 @@
 // FUNCTION DESCRIPTION:
-// map function takes in an array and callback function and will return a new array based on the results of the callback function
+// map takes in an array and callback function and returns a new array shaped by the results of the callback function
+
+//INPUT: an array and callback function
+//OUTPUT: returns an array
 
 
 const map = function(array, callback) {

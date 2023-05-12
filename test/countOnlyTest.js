@@ -9,4 +9,5 @@ describe("#countOnly", () => {
     const firstNames = ["Karl", "Salima", "Aguohanna", "Fang", "Kavith", "Jason", "Salima", "Fang", "Joe"]
     assert.deepEqual(countOnly(firstNames, {'Jason': true}), {'Jason': 1});
   });
+  
 });

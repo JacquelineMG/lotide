@@ -4,7 +4,9 @@ const assertObjectsEqual = require('./assertObjectsEqual');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const eqArrays = require('./eqArrays');
+const eqArraysRec = require('./eqArraysRec');
 const eqObjects = require('./eqObjects');
+const eqObjectsRec = require('./eqObjectsRec');
 const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
@@ -24,7 +26,9 @@ module.exports = {
   countLetters,
   countOnly,
   eqArrays,
+  eqArraysRec,
   eqObjects,
+  eqObjectsRec,
   findKey,
   findKeyByValue,
   flatten,

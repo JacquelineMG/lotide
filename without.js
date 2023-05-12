@@ -8,7 +8,7 @@
 const without = function(source, itemsToRemove) {
   const wantedItems = [];
   for (let i = 0; i < source.length; i++) {
-    if (source[i] !== itemsToRemove[i]) {
+    if (itemsToRemove.includes(source[i]) === false) {
       wantedItems.push(source[i]);
     }
   } return wantedItems;
